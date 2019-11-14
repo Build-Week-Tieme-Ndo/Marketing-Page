@@ -47,6 +47,7 @@ nav a {
   padding: 1%;
   height: 50px;
   width: 100%;
+  border-right: 2px solid white;
 }
 nav a:hover {
   background-color: green;
