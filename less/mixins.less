@@ -1,0 +1,26 @@
+.nav-h-w(@h, @w) {
+    height: @h;
+    width: @w;
+
+}
+
+.flex-items-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-flex-top(){
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@tablet: ~"(max-width:700px)";
+@mobile: ~"(max-width:500px)";
+
+.nav-flex-mobile() {
+    display: flex;
+    flex-direction: column;
+}
