@@ -1,13 +1,25 @@
 body {
   background-image: url('https://chelseawilliamsonlmft.com/wp-content/uploads/2015/09/cropped-forest-871943_1280.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-@media (max-width:500px) {
+@media (max-width:1000px) {
+  body {
+    background-image: url('https://timedotcom.files.wordpress.com/2012/09/19437247-filepart.jpg?quality=85');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media (max-width:700px) {
   body {
     display: flex;
     flex-direction: column;
     background-image: url('https://production-cdn1.patternbank.com/uploads/uploaded_files/attachments/002/344/835/1570897061/original/146196-preview-small.jpg?1570897061');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 header {
@@ -55,7 +67,7 @@ nav a:hover {
     background: green;
   }
 }
-@media (max-width:500px) {
+@media (max-width:700px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -74,4 +86,15 @@ nav a:hover {
   transform: scale(1.3);
   opacity: 1;
   box-shadow: 0 0 10px darkblue;
+}
+@media (max-width:1000px) {
+  .img-headerbox {
+    margin-top: 11%;
+    width: 65%;
+  }
+}
+@media (max-width:700px) {
+  .img-headerbox {
+    width: 70%;
+  }
 }
