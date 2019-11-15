@@ -1,8 +1,45 @@
+body {
+    background-image: url('https://chelseawilliamsonlmft.com/wp-content/uploads/2015/09/cropped-forest-871943_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    
 
+
+    @media @tablet {
+        background-image: url('https://timedotcom.files.wordpress.com/2012/09/19437247-filepart.jpg?quality=85');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+
+    @media @mobile {
+        .nav-flex-mobile();
+        background-image: url('https://production-cdn1.patternbank.com/uploads/uploaded_files/attachments/002/344/835/1570897061/original/146196-preview-small.jpg?1570897061');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+        
+    }
+
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
 
 nav {
     .nav-flex-top();
     background-color: black;
+    width: 100%;
+    
     
         
     a{
@@ -11,9 +48,21 @@ nav {
         .flex-items-center();
         padding: 1%;
         .nav-h-w(50px,100%);
+        border-right: 2px solid white;
         &:hover {
             background-color: green;
             text-shadow: 2px 2px 5px black;
+            animation-name: test;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            box-shadow: 0 0 10px darkblue;
+        
+    
+            @keyframes test {
+            from {background: #F87B99;}
+            to {background: green;}
+            }
             
            
         }
@@ -22,28 +71,75 @@ nav {
 
     }
 
-    a:hover {
-        animation-name: test;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-        transform: scale(1.3);
-        opacity: 1;
-        box-shadow: 0 0 10px darkblue;
-    
 
-        @keyframes test {
-        from {background: #F87B99;}
-        to {background: green;}
-        }
-
-    }
     
     @media @mobile {
         .nav-flex-mobile();
+        a{
+            border-bottom: 2px solid white;
+        }
+        
+        
+        
+    }
+
+
+  
+
+    }
+
+    .img-headerbox {
+        margin-top: 8%;
+        width: 50%;
+        border: 20px solid darkgreen;
+
+        &:hover {
+            animation-name: test1;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            transform: scale(1.3);
+            opacity: 1;
+            box-shadow: 0 0 10px darkblue;
+        
+
+        }
+
+        @media @tablet {
+            margin-top: 11%;
+            width: 65%;
+        }
+
+        @media @mobile {
+        
+            width: 70%;
+        }
+
+    }
+
+    #txt {
+        margin: 3%;
+        color: crimson;
+        font-size: 5rem;
     }
 
     
+    .statics{
+
+        width: 80%;
+
+        @media @tablet {
+            
+            width: 90%;
+        }
+
+        @media @mobile {
+        
+            width: 100%;
+        }
+
+    }
+
     
 
-}
+   
