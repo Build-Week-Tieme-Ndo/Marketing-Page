@@ -123,3 +123,30 @@ nav a:hover {
     width: 100%;
   }
 }
+body {
+  margin: 0 auto;
+}
+.top-header-section {
+  margin: 0 auto;
+  background-color: whitesmoke;
+  width: 90%;
+  padding: 1%;
+}
+.top-header-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+.feature-master {
+  margin: 0 auto;
+  background-color: whitesmoke;
+  width: 90%;
+}
+.feature-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2%;
+}
