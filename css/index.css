@@ -42,3 +42,27 @@ nav a:hover {
     flex-direction: column;
   }
 }
+body {
+  margin: 0 auto;
+}
+.feature-master {
+  margin: 0 auto;
+  width: 80%;
+}
+.feature-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2%;
+}
+.testimonials-block {
+  margin: 0 auto;
+  width: 80%;
+}
+.testimonials-block img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
