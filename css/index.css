@@ -3,6 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
 }
 @media (max-width:1000px) {
   body {
@@ -27,6 +28,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -45,18 +47,15 @@ nav a {
   padding: 1%;
   height: 50px;
   width: 100%;
+  border-right: 2px solid white;
 }
 nav a:hover {
   background-color: green;
   text-shadow: 2px 2px 5px black;
-}
-nav a:hover {
   animation-name: test;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-  transform: scale(1.3);
-  opacity: 1;
   box-shadow: 0 0 10px darkblue;
 }
 @keyframes test {
@@ -71,6 +70,9 @@ nav a:hover {
   nav {
     display: flex;
     flex-direction: column;
+  }
+  nav a {
+    border-bottom: 2px solid white;
   }
 }
 .img-headerbox {
@@ -96,5 +98,23 @@ nav a:hover {
 @media (max-width:700px) {
   .img-headerbox {
     width: 70%;
+  }
+}
+#txt {
+  margin: 3%;
+  color: crimson;
+  font-size: 5rem;
+}
+.statics {
+  width: 80%;
+}
+@media (max-width:1000px) {
+  .statics {
+    width: 90%;
+  }
+}
+@media (max-width:700px) {
+  .statics {
+    width: 100%;
   }
 }
