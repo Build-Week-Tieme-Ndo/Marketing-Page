@@ -15,6 +15,4 @@ function startTime() {
   }
 
 
-  function loginfunction() {
-    document.getElementById("login").window.alert('Please sign in!!!');
-  }
+ 
