@@ -13,3 +13,8 @@ function startTime() {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
   }
+
+
+  function loginfunction() {
+    document.getElementById("login").window.alert('Please sign in!!!');
+  }
