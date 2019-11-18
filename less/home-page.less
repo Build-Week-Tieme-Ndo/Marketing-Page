@@ -1,23 +1,19 @@
 body {
-    width: 100%;
-
+  width: 100%;
 }
 
 .top-header-section {
-    margin          : 0 @auto;
-    background-color: @color-smoke;
-    width           : 90%;
-    padding         : 2% 5%;
+  margin: 0 @auto;
+  background-color: @color-smoke;
+  width: 90%;
+  padding: 2% 5%;
 
-
-
-    img {
-        display      : block;
-        margin-left  : @auto;
-        margin-right : @auto;
-        border-radius: 100px;
-
-    }
+  img {
+    display: block;
+    margin-left: @auto;
+    margin-right: @auto;
+    border-radius: 100px;
+  }
 }
 
 // .feature-master {
@@ -27,54 +23,48 @@ body {
 // }
 
 .feature-layout {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    text-align: center;
-    box-sizing: border-box;
-    width: 100%;
-    
-    border: 3px solid gray;
-    @media @mobile {
-        display        : flex;
-        flex-direction: column;
-        border: none;
-        padding-left: 6%;
-    }
-    @media @tablet {
-        border: none;
-        padding-left: 6%;
-    }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+
+  border: 3px solid gray;
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding-left: 6%;
+  }
+  @media @tablet {
+    border: none;
+    padding-left: 6%;
+  }
 }
 .feature-block {
-    border: 3px solid gray;
-    padding: 2%;
-    width: 50%;
-    
-    @media @mobile {
-        width: 80%;
-     
-        
-        
-        
-    }
+  border: 3px solid gray;
+  padding: 2%;
+  width: 50%;
 
-    @media @tablet {
-        width: 90%;
-    }
+  @media @mobile {
+    width: 80%;
+  }
+
+  @media @tablet {
+    width: 90%;
+  }
 }
 
-
 h1 {
-    font-size: 5rem;
-    font-family: 'Rye', cursive;
+  font-size: 5rem;
+  font-family: "Rye", cursive;
 }
 
 h2 {
-    font-size: 3rem;
-    font-family: 'Rye', cursive;
+  font-size: 3rem;
+  font-family: "Rye", cursive;
 }
 // .testimonials-block {
 //     margin: 0 auto;
@@ -88,22 +78,46 @@ h2 {
 //     }
 // }
 
-
 #contactpage {
-    background-color: @color-smoke;
-    width: 80%;
-    height: 100%;
-    padding: 2%;
+  background-color: @color-smoke;
+  width: 80%;
+  height: 100%;
+  padding: 2%;
+  .flex-items-center();
+  .flex-direction-colunm();
+  font-size: 2rem;
+  h2 {
+    font-size: 5rem;
+    color: darkblue;
+  }
+  .container {
+    padding: 5%;
+  }
+}
+
+#teampage {
+  background-color: @color-smoke;
+  width: 80%;
+  height: 100%;
+  padding: 2%;
+  font-size: 1rem;
+  h2 {
+    font-size: 5rem;
+    color: darkblue;
+  }
+  .container {
+    padding: 5%;
+  }
+  .teambio {
     .flex-items-center();
     .flex-direction-colunm();
-    font-size: 2rem;
-    h2 {
-        font-size: 5rem;
-        color: darkblue;
-    }
-    .container{
-        padding: 5%;
-        
+
+    .headshot-img {
+      border-radius: 100px;
     }
 
+    .social-img {
+      width: 50px;
+    }
+  }
 }
