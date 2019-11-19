@@ -232,7 +232,8 @@ h2 {
 }
 #teampage .teambio .headshot-img {
   border-radius: 80%;
-  overflow: hidden;
+  height: 240px;
+  width: 240px;
 }
 #teampage .teambio .social-img {
   width: 50px;
