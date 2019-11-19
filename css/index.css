@@ -231,7 +231,8 @@ h2 {
   flex-direction: column;
 }
 #teampage .teambio .headshot-img {
-  border-radius: 100px;
+  border-radius: 80%;
+  overflow: hidden;
 }
 #teampage .teambio .social-img {
   width: 50px;
