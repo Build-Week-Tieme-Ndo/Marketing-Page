@@ -140,6 +140,21 @@ body {
   width: 90%;
   padding: 2% 5%;
 }
+.top-header-section .buttonclass {
+  background-color: darkgreen;
+  color: whitesmoke;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  width: 20%;
+  border-radius: 10px;
+}
+@media (max-width:700px) {
+  .top-header-section .buttonclass {
+    width: 30%;
+  }
+}
 .top-header-section img {
   display: block;
   margin-left: auto;
@@ -191,6 +206,11 @@ h1 {
 h2 {
   font-size: 3rem;
   font-family: "Rye", cursive;
+}
+@media (max-width:700px) {
+  h2 {
+    font-size: 2rem;
+  }
 }
 #contactpage {
   background-color: whitesmoke;
