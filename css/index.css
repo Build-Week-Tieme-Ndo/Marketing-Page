@@ -261,3 +261,35 @@ h2 {
 #teampage .teambio .social-img {
   width: 50px;
 }
+#downloadpage {
+  background-color: whitesmoke;
+  width: 80%;
+  height: 100%;
+  font-size: 1rem;
+  padding: 2%;
+}
+#downloadpage .app-images {
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+}
+@media (max-width:700px) {
+  #downloadpage .app-images {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding-left: 6%;
+  }
+}
+@media (max-width:1000px) {
+  #downloadpage .app-images {
+    border: none;
+    padding-left: 6%;
+  }
+}
+#downloadpage .app-images .app-sample {
+  width: 50%;
+}
+#downloadpage .app-images .app-download {
+  width: 50%;
+}
